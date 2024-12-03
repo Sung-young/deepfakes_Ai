@@ -27,10 +27,7 @@ https://huggingface.co/pou876/llava-deepfake-model : huggingface에 업로드된
 
 * **[Llama_detection.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/detection/Llama_detection.ipynb)**: TogetherAI 엔드포인트를 사용하여 LLaMA 3.2 모델 기반으로 딥페이크 이미지 분류.
 
-### 5. RAG
-RAG 기법이 적용된 detection의 경우 해당 폴더에 따로 분류합니다.
-
-### 6. **model_response**
+### 5. **model_response**
 모델의 예측(Prediction) 및 점수화(Scoring) 작업을 포함합니다.
 
 * **[Gemini_basemodel_Prediction.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/Gemini_basemodel_Prediction.ipynb)**: Gemini-1.5-Flash-002 기본 모델을 사용하여 입력 데이터에 대한 예측을 수행합니다.  
