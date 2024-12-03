@@ -16,6 +16,8 @@
 * **[llava_convert.py](https://github.com/KimEunOh/deepfakes/blob/main/data/llava_convert.py)**: 데이터를 llava에서 요구하는 형식으로 변환.
 ### 3. fine_tuning
 LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업을 수행합니다.
+https://huggingface.co/pou876/llava-deepfake-model : huggingface에 업로드된 파인튜닝 모델 
+
 
 * **[tuning_Gemini_Flash.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/fine_tuning/tuning_Gemini_Flash.ipynb)**: Gemini 모델의 하이퍼파라미터 튜닝 작업을 수행하여 딥페이크 탐지 성능을 최적화합니다.  
   <sub>Google Colab 환경에서 실행되었습니다.</sub>
