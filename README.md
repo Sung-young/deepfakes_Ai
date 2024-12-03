@@ -16,6 +16,7 @@
 * **[llava_convert.py](https://github.com/KimEunOh/deepfakes/blob/main/data/llava_convert.py)**: 데이터를 llava에서 요구하는 형식으로 변환.
 ### 3. fine_tuning
 LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업을 수행합니다.
+
 https://huggingface.co/pou876/llava-deepfake-model : huggingface에 업로드된 파인튜닝 모델 
 
 
