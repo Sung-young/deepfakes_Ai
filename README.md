@@ -14,9 +14,12 @@
 * **[GPT_label.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/data/GPT_label.ipynb)**: GPT 모델을 활용하여 이미지 데이터셋에 대해 자동으로 레이블링.
 * **[label_LLaMA.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/data/label_LLaMA.ipynb)**: TogetherAI 엔드포인트를 활용하여 LLaMA 모델로 이미지 데이터셋 레이블링.
 * **[llava_convert.py](https://github.com/KimEunOh/deepfakes/blob/main/data/llava_convert.py)**: 데이터를 llava에서 요구하는 형식으로 변환.
-### 3. fine-tune
+### 3. fine_tuning
 LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업을 수행합니다.
 
+* **[tuning_Gemini_Flash.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/fine_tuning/tuning_Gemini_Flash.ipynb)**: Gemini 모델의 하이퍼파라미터 튜닝 작업을 수행하여 딥페이크 탐지 성능을 최적화합니다.  
+  <sub>Google Colab 환경에서 실행되었습니다.</sub>
+  
 ### 4. detection
 이미지 데이터셋의 이상 탐지 및 분류 작업을 수행합니다. 
 
@@ -25,6 +28,18 @@ LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업�
 ### 5. RAG
 RAG 기법이 적용된 detection의 경우 해당 폴더에 따로 분류합니다.
 
+### 6. **model_response**
+모델의 예측(Prediction) 및 점수화(Scoring) 작업을 포함합니다.
+
+* **[Gemini_basemodel_Prediction.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/Gemini_basemodel_Prediction.ipynb)**: Gemini-1.5-Flash-002 기본 모델을 사용하여 입력 데이터에 대한 예측을 수행합니다.  
+  <sub>Google Colab 환경에서 실행되었습니다.</sub>
+* **[Gemini_basemodel_Score.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/Gemini_basemodel_Score.ipynb)**: Gemini-1.5-Flash-002 기본 모델의 점수화 작업을 통해 모델 성능을 평가합니다.  
+  <sub>Google Colab 환경에서 실행되었습니다.</sub>
+* **[tuned_Gemini_Prediction.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/tuned_Gemini_Prediction.ipynb)**: 조정된 Gemini-1.5-Flash-002 모델을 사용하여 입력 데이터에 대한 예측을 수행합니다.  
+  <sub>Google Colab 환경에서 실행되었습니다.</sub>
+* **[tuned_Gemini_Score.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/tuned_Gemini_Score.ipynb)**: 조정된 Gemini-1.5-Flash-002 모델의 점수화 작업을 수행하여 성능을 평가합니다.  
+  <sub>Google Colab 환경에서 실행되었습니다.</sub>
+  
 # 파일 추가 규칙
 새로운 파일을 추가하거나 업데이트할 때는 다음 형식을 따르세요.
 ### 디렉터리 설명 템플릿
