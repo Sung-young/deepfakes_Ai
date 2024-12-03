@@ -22,7 +22,7 @@ LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업�
 
 * **[Llama_detection.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/detection/Llama_detection.ipynb)**: TogetherAI 엔드포인트를 사용하여 LLaMA 3.2 모델 기반으로 딥페이크 이미지 분류.
 
- ### 4-1. RAG
+###  4-1. RAG
  RAG 기법이 적용된 detection의 경우 해당 폴더에 따로 분류합니다.
 
 # 파일 추가 규칙
