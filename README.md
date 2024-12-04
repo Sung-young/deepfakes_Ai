@@ -22,9 +22,9 @@ LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업�
 
 
 ### &nbsp;&nbsp; 3-1. LLaVA
-LLaVA 모델의 WanDB 파일 및 튜닝 코드들을 포함합니다.
+&nbsp;&nbsp; LLaVA 모델의 WanDB 파일 및 튜닝 코드들을 포함합니다.
 
-* **[https://huggingface.co/pou876/llava-deepfake-model](https://huggingface.co/pou876/llava-deepfake-model)**: huggingface에 업로드된 파인튜닝 모델 **
+* **[https://huggingface.co/pou876/llava-deepfake-model](https://huggingface.co/pou876/llava-deepfake-model)**: huggingface에 업로드된 파인튜닝 모델
 
 * **[LLaVA_tuning.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/fine_tuning/LLaVA_tuning.ipynb)**: LLaVA 모델의 파인튜닝 코드
 
