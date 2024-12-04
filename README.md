@@ -17,18 +17,18 @@
 ### 3. fine_tuning
 LMM 모델을 파인튜닝하여 딥페이크 탐지에 최적화하는 작업을 수행합니다.
 
-https://huggingface.co/pou876/llava-deepfake-model : huggingface에 업로드된 파인튜닝 모델 
-
-
 * **[tuning_Gemini_Flash.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/fine_tuning/tuning_Gemini_Flash.ipynb)**: Gemini 모델의 하이퍼파라미터 튜닝 작업을 수행하여 딥페이크 탐지 성능을 최적화합니다.  
   <sub>Google Colab 환경에서 실행되었습니다.</sub>
-  
-### 4. detection
-이미지 데이터셋의 이상 탐지 및 분류 작업을 수행합니다. 
 
-* **[Llama_detection.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/detection/Llama_detection.ipynb)**: TogetherAI 엔드포인트를 사용하여 LLaMA 3.2 모델 기반으로 딥페이크 이미지 분류.
 
-### 5. **model_response**
+### &nbsp;&nbsp; 3-1. LLaVA
+LLaVA 모델의 WanDB 파일 및 튜닝 코드들을 포함합니다.
+
+* **[https://huggingface.co/pou876/llava-deepfake-model](https://huggingface.co/pou876/llava-deepfake-model)**: huggingface에 업로드된 파인튜닝 모델 **
+
+* **[LLaVA_tuning.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/fine_tuning/LLaVA_tuning.ipynb)**: LLaVA 모델의 파인튜닝 코드
+
+### 4. model_response
 모델의 예측(Prediction) 및 점수화(Scoring) 작업을 포함합니다.
 
 * **[Gemini_basemodel_Prediction.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/Gemini_basemodel_Prediction.ipynb)**: Gemini-1.5-Flash-002 기본 모델을 사용하여 입력 데이터에 대한 예측을 수행합니다.  
@@ -39,6 +39,9 @@ https://huggingface.co/pou876/llava-deepfake-model : huggingface에 업로드된
   <sub>Google Colab 환경에서 실행되었습니다.</sub>
 * **[tuned_Gemini_Score.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/tuned_Gemini_Score.ipynb)**: 조정된 Gemini-1.5-Flash-002 모델의 점수화 작업을 수행하여 성능을 평가합니다.  
   <sub>Google Colab 환경에서 실행되었습니다.</sub>
+
+* **[Llama_detection.ipynb](https://github.com/KimEunOh/deepfakes/blob/main/response_model/Llama_detection.ipynb)**: TogetherAI 엔드포인트를 사용하여 LLaMA 3.2 모델 기반으로 딥페이크 이미지 분류.
+
   
 # 파일 추가 규칙
 새로운 파일을 추가하거나 업데이트할 때는 다음 형식을 따르세요.
